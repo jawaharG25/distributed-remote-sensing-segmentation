@@ -1,0 +1,14 @@
+#!/bin/bash
+#SBATCH --job-name=r50_1g
+#SBATCH --output=r50_1g_%j.out
+#SBATCH --error=r50_1g_%j.err
+#SBATCH --partition=gpu
+#SBATCH --nodes=1
+#SBATCH --gres=gpu:1
+#SBATCH --cpus-per-task=4
+#SBATCH --time=12:00:00
+
+cd /scratch/karthiavv/thesis_project/
+source ~/miniconda3/etc/profile.d/conda.sh
+conda activate seg_env
+python train_loveda_resnet50_512_1gpu.py

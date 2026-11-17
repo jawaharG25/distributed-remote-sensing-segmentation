@@ -1,0 +1,7 @@
+numpy
+Pillow
+torch
+torchvision
+torchmetrics
+segmentation-models-pytorch
+transformers

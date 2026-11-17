@@ -1,0 +1,5 @@
+dataset,architecture,batchnorm,time_1gpu_seconds,time_2gpu_seconds,time_4gpu_seconds,speedup_2gpu,speedup_4gpu,efficiency_2gpu_percent,efficiency_4gpu_percent
+LoveDA,DeepLabV3Plus,SyncBatchNorm,3967.20,2938.84,1536.19,1.35,2.58,67.49,64.68
+LoveDA,SegFormerB2,SyncBatchNorm,9347.62,4878.99,2452.44,1.92,3.81,95.79,95.84
+LandCover.ai,DeepLabV3Plus,SyncBatchNorm,3145.06,1749.18,831.44,1.80,3.78,89.89,94.62
+LandCover.ai,SegFormerB2,SyncBatchNorm,4380.67,2292.81,1123.08,1.91,3.90,95.59,97.88
