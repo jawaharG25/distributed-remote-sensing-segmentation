@@ -2,18 +2,6 @@
 
 Reproducible experiments studying GPU scaling and BatchNorm synchronization for semantic segmentation of high-resolution remote-sensing imagery.
 
-## Project website
-
-The thesis contents are presented as a scrolling React site in [`website/`](website/). It includes the abstract, datasets, architectures, DDP methodology, figures, scaling plot, complete result matrix, discussion, limitations, and direct links to the repository artifacts.
-
-```powershell
-cd website
-npm install
-npm run dev
-```
-
-The source is in [`website/src/main.jsx`](website/src/main.jsx) and [`website/src/styles.css`](website/src/styles.css).
-
 ## Research questions
 
 - How does training time change from one to four GPUs?
